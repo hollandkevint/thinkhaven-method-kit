@@ -48,6 +48,7 @@ The kit is intentionally lightweight. It does not try to be a self-hosted ThinkH
 | **b2b-idea-vetting** | 20-minute pressure test for a B2B idea, positioning angle, offer, content thesis, or client recommendation. Produces a concrete decision artifact. |
 | **preflight** | 7-question exercise before any AI session. Forces clarity on outcomes, failure modes, and hard parts. Based on Nate Jones' Preflight. |
 | **grill-me** | Decision tree exploration. "Interview me relentlessly about every aspect of this plan." Non-coding variant of Matt Pocock's viral skill. |
+| **grill-with-docs** | Work an idea through with the agent, grounded in your own documents. Builds shared language and captures decisions inline. The collaborative counterpart to grill-me. |
 | **kill-go** | 5 pointed questions that produce a viability score and a proceed/pivot/kill recommendation. |
 | **assumption-mapper** | Extract and rank assumptions from any idea. Identifies what to test first. |
 | **pull-framework** | Project/Urgent/List/Limitations. Structured problem discovery before solution design. |
