@@ -4,28 +4,45 @@ Open decision architecture for people who need sharper judgment before they buil
 
 This is the public method layer behind [ThinkHaven](https://thinkhaven.co): prompts, skills, playbooks, and frameworks for turning messy ideas into defensible decisions. Run the methods manually from this repo, or use ThinkHaven when you want the hosted version with adaptive facilitation, memory, artifacts, and a personal board of advisors.
 
-## Start here
+## Quickstart
 
-If you are a PMM, product manager, founder, writer, or consultant with an idea that needs pressure, start with:
-
-- **[`b2b-idea-vetting`](skills/b2b-idea-vetting/SKILL.md)** — a 20-minute session for vetting a B2B idea, positioning angle, offer, content thesis, or client recommendation.
-
-It produces a short decision artifact:
-
-- decision under review
-- strongest case
-- weakest assumption
-- evidence gaps
-- recommended next move
-- confidence level
-
-## Install
+**Install:**
 
 ```bash
 /plugin marketplace add hollandkevint/thinkhaven-method-kit
 ```
 
 Or copy individual files from `skills/`, `prompts/`, and `frameworks/` into your own AI workspace.
+
+**Then pick your entry point by situation — copy a block and run it:**
+
+```text
+Vet a B2B idea, angle, or offer   →  b2b-idea-vetting        (20 min, all-in-one)
+Run a full decision, guided       →  /da:decide              (facilitator runs the whole loop)
+Stuck in the middle of one        →  problem-framing → grill-me → kill-go
+Pressure-test before you ship     →  preflight → grill-me → decision-brief
+Size up a market or industry      →  arbitrage-audit
+```
+
+New here and just want one thing to try: run **[`b2b-idea-vetting`](skills/b2b-idea-vetting/SKILL.md)**. It's a 20-minute session that takes any B2B idea, positioning angle, offer, content thesis, or client recommendation and returns a decision artifact — decision under review, strongest case, weakest assumption, evidence gaps, recommended next move, confidence level.
+
+## The flow
+
+Every skill in the kit is a stage in one loop. You can run the whole thing with `/da:decide` (the facilitator threads it for you), or run stages by hand:
+
+```text
+FRAME  →  PRESSURE  →  MAP  →  DECIDE  →  CODIFY
+```
+
+| Stage | What happens | Skills / prompts |
+|-------|--------------|------------------|
+| **Frame** | Name the real decision and the failure modes before touching a solution. | `preflight`, `problem-framing`, `pull-framework` |
+| **Pressure** | Attack the idea. Surface what you're assuming, get pushback instead of validation. | `grill-me`, `grill-with-docs`, `b2b-idea-vetting`, `board-of-directors` |
+| **Map** | Extract and rank the assumptions; find what to test first. | `assumption-mapper`, `arbitrage-audit` |
+| **Decide** | Make the call and write it down so it holds up later. | `kill-go`, `decision-brief` |
+| **Codify** | Capture the decision into a durable record in `decisions/` so the reasoning survives the session. | `codify` |
+
+The output is a short, shareable decision brief you keep. Anti-sycophancy runs through every stage — the kit is built to tell you to kill an idea when the evidence says kill. See [PHILOSOPHY.md](PHILOSOPHY.md) for why.
 
 ## What this is
 
@@ -58,6 +75,7 @@ The kit is intentionally lightweight. It does not try to be a self-hosted ThinkH
 | **problem-framing** | 9-step systematic diagnosis. Define, diagnose, root cause, force analysis, solution generation, evaluation. |
 | **innovation-diagnostic** | Lightweight innovation assessment. Strategic context, market analysis, disruption identification, go/no-go gates. |
 | **design-thinking-lite** | 7-step human-centered design: context, empathize, define, ideate, prototype, test, iterate. |
+| **codify** | Capture a just-made decision into one durable record in `decisions/`. Update-over-duplicate; the reasoning survives the session. |
 
 ### Agents
 
@@ -75,6 +93,7 @@ The kit is intentionally lightweight. It does not try to be a self-hosted ThinkH
 | `/da:map-arbitrage-gaps` | `gap-map-<name>.md` |
 | `/da:diagnose-problem` | `problem-diagnosis-<name>.md` |
 | `/da:validate-innovation` | `innovation-assessment-<name>.md` |
+| `/da:codify` | `decisions/<slug>.md` — durable decision record |
 
 ### Prompts
 
