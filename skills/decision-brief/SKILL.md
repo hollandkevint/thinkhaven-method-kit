@@ -96,6 +96,10 @@ Date: [date]
 
 Based on Alex MH Smith's creative brief framework.
 
+## Next step
+
+Brief done → run **codify** to make the record durable in `decisions/`.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

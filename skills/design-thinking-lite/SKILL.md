@@ -122,6 +122,10 @@ Date: [date]
 
 Adapted from BMAD Creative Intelligence Suite design-thinking workflow (Maya).
 
+## Next step
+
+Tested → run **assumption-mapper** on what the prototype surfaced, or **decision-brief** to write the proceed/pivot/kill call.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

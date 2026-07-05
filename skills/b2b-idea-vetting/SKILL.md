@@ -181,6 +181,10 @@ The artifact is successful when:
 
 This is not a content brainstorm, a product requirements session, or a generic market analysis. It is a decision pass: should this idea get more time, and what would prove that?
 
+## Next step
+
+Verdict still unclear → run **kill-go** for a scored call. Call made → run **codify** to record it.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

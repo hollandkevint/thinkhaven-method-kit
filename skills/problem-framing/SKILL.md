@@ -126,6 +126,10 @@ Date: [date]
 
 Adapted from BMAD Creative Intelligence Suite problem-solving workflow (Dr. Quinn).
 
+## Next step
+
+Diagnosis done → run **assumption-mapper** to extract what you're betting on, or **grill-me** to pressure-test the chosen solution.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

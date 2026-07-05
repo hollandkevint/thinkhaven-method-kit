@@ -89,6 +89,10 @@ Date: [date]
 
 The user may push back on assumptions you surface. "No, I know that's true." Ask: "How do you know? What's the evidence?" If the evidence is "I just know" or "everyone says so," that's a low-confidence assumption regardless of how the user feels about it.
 
+## Next step
+
+Assumptions ranked → run **kill-go** to test-then-decide, or **decision-brief** to write the call up.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

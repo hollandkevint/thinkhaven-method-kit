@@ -61,7 +61,9 @@ A living decision record, updated through the session and finalized at the end:
 
 Not brainstorming from a blank page (start with `b2b-idea-vetting` or a brief). Not a pure pressure test of a finished plan (`grill-me`). Not a viability scorecard (`kill-go`). This is the middle step: take rough material and a half-formed decision, and work them into a sharp, shared, documented call.
 
-Sits in the flow: shape with **grill-with-docs**, pressure-test with **grill-me** / **kill-go**, ship with **decision-brief**.
+## Next step
+
+Decision shaped → run **assumption-mapper** to rank what it rests on, or **decision-brief** to write it up.
 
 ---
 

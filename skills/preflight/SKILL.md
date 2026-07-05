@@ -97,6 +97,10 @@ Clarity you bring to AI > clarity AI can generate for you. This exercise forces 
 
 Based on Nate Jones' Human Prompt Preflight framework.
 
+## Next step
+
+Plan is clear → run **grill-me** to pressure-test it. Problem still fuzzy → run **problem-framing** to diagnose before you scope.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

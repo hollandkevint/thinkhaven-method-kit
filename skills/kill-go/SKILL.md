@@ -131,6 +131,10 @@ Date: [date]
 [One specific action]
 ```
 
+## Next step
+
+Proceed or pivot → run **decision-brief** to write it up. Kill → run **codify** to record why, so the lesson survives.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
