@@ -30,6 +30,8 @@ Decision Architecture is a structured-thinking toolkit for making better decisio
 
 Tools other than Claude Code can read the prompts and frameworks directly. Skills and agents follow the Claude Code plugin format; equivalent invocation patterns vary by tool.
 
+Consuming projects (not this repo) get a `decisions/` folder of durable one-decision-per-file records, written by the `codify` skill at the end of the loop. This line documents the convention for contributors; the skill's own runtime check is what surfaces it to consumers.
+
 ## Conventions
 
 - Each skill: YAML frontmatter (`name`, `description`, `user-invocable`) plus imperative guidance. Cross-reference related skills, don't duplicate content.

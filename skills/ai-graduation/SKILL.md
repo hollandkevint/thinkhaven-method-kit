@@ -123,6 +123,10 @@ Move [N] of 7: [Move Name]
 
 Based on Stuart Winter-Tear's AI Graduation Path.
 
+## Next step
+
+Gate assessed → run **decision-brief** to write the call up, or **codify** to record it.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

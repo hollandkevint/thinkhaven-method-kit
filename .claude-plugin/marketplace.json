@@ -1,5 +1,33 @@
 {
-  "slug": "hollandkevint/thinkhaven-method-kit",
-  "category": "productivity",
-  "featured": false
+  "name": "thinkhaven-method-kit",
+  "owner": {
+    "name": "Kevin Holland",
+    "url": "https://github.com/hollandkevint"
+  },
+  "metadata": {
+    "version": "1.2.0"
+  },
+  "plugins": [
+    {
+      "name": "thinkhaven-method-kit",
+      "source": "./",
+      "description": "The public method layer behind ThinkHaven. Open decision architecture skills, prompts, playbooks, and frameworks for pressure-testing B2B ideas, positioning, offers, product bets, and client recommendations before committing.",
+      "author": {
+        "name": "Kevin Holland",
+        "url": "https://github.com/hollandkevint"
+      },
+      "homepage": "https://thinkhaven.co",
+      "license": "MIT",
+      "tags": [
+        "decision-making",
+        "decision-architecture",
+        "anti-sycophancy",
+        "positioning",
+        "b2b",
+        "product-management",
+        "strategic-thinking",
+        "frameworks"
+      ]
+    }
+  ]
 }

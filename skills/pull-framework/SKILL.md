@@ -80,6 +80,10 @@ Date: [date]
 
 Based on the PULL Framework. Understand before prescribing.
 
+## Next step
+
+Problem discovered → run **problem-framing** to diagnose deeper, or **preflight** if you're ready to scope a session.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

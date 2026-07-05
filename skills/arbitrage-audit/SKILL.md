@@ -88,6 +88,10 @@ Date: [date]
 
 Based on Nate Jones' Reinvention of Arbitrage framework.
 
+## Next step
+
+Gap mapped → run **kill-go** for a proceed/pivot/kill verdict, or **decision-brief** to write the positioning up.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

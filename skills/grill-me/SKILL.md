@@ -56,6 +56,10 @@ This is not a brainstorming session. You're not generating ideas. You're pressur
 
 Based on Frederick P. Brooks' "The Design of Design" and Matt Pocock's grill-me skill pattern.
 
+## Next step
+
+Grilling surfaced assumptions → run **assumption-mapper** to extract and rank them. Ready for a verdict → run **kill-go**.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.

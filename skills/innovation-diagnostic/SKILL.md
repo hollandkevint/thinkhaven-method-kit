@@ -109,6 +109,10 @@ Date: [date]
 
 Adapted from BMAD Creative Intelligence Suite innovation-strategy workflow (Victor).
 
+## Next step
+
+Assessment done → run **kill-go** for a scored verdict, or **decision-brief** to write it up.
+
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
