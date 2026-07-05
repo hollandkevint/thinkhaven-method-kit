@@ -21,7 +21,7 @@ Decision Architecture is a structured-thinking toolkit for making better decisio
 |------|---------|
 | `skills/<name>/SKILL.md` | Background-context skills (Claude Code: activate on keyword match) |
 | `agents/<name>.agent.md` | Foreground agents (Claude Code: invoke via slash command or @-mention) |
-| `commands/<name>.md` | User-facing entry points (Claude Code prefix: `/da:`) |
+| `commands/<name>.md` | User-facing entry points. Invoke by bare name (`/decide`, `/codify`); fully qualified form is `/thinkhaven-method-kit:<name>` (commands namespace by the `plugin.json` name — verified by live install 2026-07-05) |
 | `prompts/` | Standalone prompts that work with any LLM |
 | `frameworks/` | Reference documents for decision practice |
 | `docs/brainstorms/` | Origin requirements documents |

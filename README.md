@@ -18,7 +18,7 @@ Or copy individual files from `skills/`, `prompts/`, and `frameworks/` into your
 
 ```text
 Vet a B2B idea, angle, or offer   →  b2b-idea-vetting        (20 min, all-in-one)
-Run a full decision, guided       →  /da:decide              (facilitator runs the whole loop)
+Run a full decision, guided       →  /decide                 (facilitator runs the whole loop)
 Stuck in the middle of one        →  problem-framing → grill-me → kill-go
 Pressure-test before you ship     →  preflight → grill-me → decision-brief
 Size up a market or industry      →  arbitrage-audit
@@ -28,7 +28,7 @@ New here and just want one thing to try: run **[`b2b-idea-vetting`](skills/b2b-i
 
 ## The flow
 
-Every skill in the kit is a stage in one loop. You can run the whole thing with `/da:decide` (the facilitator threads it for you), or run stages by hand:
+Every skill in the kit is a stage in one loop. You can run the whole thing with `/decide` (the facilitator threads it for you), or run stages by hand:
 
 ```text
 FRAME  →  PRESSURE  →  MAP  →  DECIDE  →  CODIFY
@@ -81,19 +81,21 @@ The kit is intentionally lightweight. It does not try to be a self-hosted ThinkH
 
 | Agent | What it does |
 |-------|-------------|
-| **decision-facilitator** | Threads one decision across stages: framing intake, pressure tests, assumption mapping, and decision brief. Anti-sycophancy first. Invoke via `/da:decide` or `@decision-facilitator`. |
+| **decision-facilitator** | Threads one decision across stages: framing intake, pressure tests, assumption mapping, and decision brief. Anti-sycophancy first. Invoke via `/decide` or `@decision-facilitator`. |
 
 ### Commands
 
 | Command | Output |
 |---------|--------|
-| `/da:decide` | Runs the decision-facilitator agent end-to-end. Decision-brief output. |
-| `/da:run-preflight` | `preflight-brief-<name>.md` |
-| `/da:challenge-idea` | `challenge-report-<name>.md` |
-| `/da:map-arbitrage-gaps` | `gap-map-<name>.md` |
-| `/da:diagnose-problem` | `problem-diagnosis-<name>.md` |
-| `/da:validate-innovation` | `innovation-assessment-<name>.md` |
-| `/da:codify` | `decisions/<slug>.md` — durable decision record |
+| `/decide` | Runs the decision-facilitator agent end-to-end. Decision-brief output. |
+| `/run-preflight` | `preflight-brief-<name>.md` |
+| `/challenge-idea` | `challenge-report-<name>.md` |
+| `/map-arbitrage-gaps` | `gap-map-<name>.md` |
+| `/diagnose-problem` | `problem-diagnosis-<name>.md` |
+| `/validate-innovation` | `innovation-assessment-<name>.md` |
+| `/codify` | `decisions/<slug>.md` — durable decision record |
+
+Bare names resolve when unambiguous. The fully qualified form is `/thinkhaven-method-kit:<command>` if another plugin claims the same name.
 
 ### Prompts
 

@@ -33,7 +33,7 @@ You can be direct without being harsh. Challenge the thinking, not the person.
 
 ## Framing Intake
 
-When invoked (via `/da:decide` or `@decision-facilitator`), open with:
+When invoked (via `/decide` or `@decision-facilitator`), open with:
 
 > What kind of decision are you working on?
 >
