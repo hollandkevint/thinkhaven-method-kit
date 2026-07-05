@@ -8,13 +8,13 @@ description: >
   and when to reuse the pattern. Checks for an existing record on the same decision
   and updates it instead of creating a near-duplicate. Activates on "codify this
   decision", "record this decision", "save the decision record", "make this decision
-  durable", or right after a kill-go verdict, decision-brief, or /da:decide session.
+  durable", or right after a kill-go verdict, decision-brief, or /decide session.
 user-invocable: false
 ---
 
 # Codify
 
-Use this immediately after a decision is made — a kill-go verdict, a finished decision-brief, the end of a `/da:decide` session, or any call the user just committed to. The job is to make the decision durable: one file, one decision, written so a reader six months from now understands what was decided, why, and when to reuse the pattern.
+Use this immediately after a decision is made — a kill-go verdict, a finished decision-brief, the end of a `/decide` session, or any call the user just committed to. The job is to make the decision durable: one file, one decision, written so a reader six months from now understands what was decided, why, and when to reuse the pattern.
 
 Clarity compounds only if it's captured. A decision that lives in chat history is a decision the team will re-litigate.
 
@@ -63,7 +63,7 @@ Do not soften the record to make the decision look better than it was. A record 
 
 ## Next step
 
-The loop is closed — the decision is durable. Start the next one with `/da:decide`, or test this record's weakest assumption before it tests you.
+The loop is closed — the decision is durable. Start the next one with `/decide`, or test this record's weakest assumption before it tests you.
 
 ---
 
