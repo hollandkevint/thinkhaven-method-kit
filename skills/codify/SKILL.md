@@ -22,7 +22,7 @@ Clarity compounds only if it's captured. A decision that lives in chat history i
 
 1. **Anchor the location.** Records go in `decisions/` at the root of the user's project repo — not the current working directory if that's a subdirectory, and never inside this plugin. Create `decisions/` on first use.
 2. **Slug the decision.** Derive a short kebab-case filename from the decision itself: `decisions/kill-freemium-tier.md`, `decisions/pivot-to-eval-service.md`.
-3. **Check before creating — always.** List `decisions/` and read the closest-matching existing record before writing anything. If an existing record covers the same decision (same call being made or revisited, even under a different name), update that file: revise the fields that changed and add a dated addendum line under Context. Create a new file only when no record covers this decision. Near-duplicate records are the failure mode this step exists to prevent — if the folder accumulates two records for one decision, that drift is the signal this check needs tightening.
+3. **Check before creating — always.** List `decisions/` and read the closest-matching existing record before writing anything. (No directory-listing tool available? Ask the user to name any existing record on this decision — do not skip the check silently.) If an existing record covers the same decision (same call being made or revisited, even under a different name), update that file: revise the fields that changed and add a dated addendum line under Context. Create a new file only when no record covers this decision. Near-duplicate records are the failure mode this step exists to prevent — if the folder accumulates two records for one decision, that drift is the signal this check needs tightening.
 4. **Fill the template honestly.** Record the actual confidence and the genuinely weakest assumption, not a sanitized version. If the decision was a kill, say kill and say why. The record is for truth, not for looking decisive.
 
 ## The Record Template
@@ -55,7 +55,7 @@ Date: [YYYY-MM-DD]
 
 ## Discoverability Check
 
-After writing the record, check whether the project's AGENTS.md or CLAUDE.md points agents at `decisions/`. If neither file mentions it, **propose** the one-line addition to the user — for example: "Durable decision records live in `decisions/` — read the relevant record before revisiting a past decision." Never silently edit the user's context files; they own them. If neither file exists, say so in one line and move on.
+After writing the record, check whether the project's AGENTS.md or CLAUDE.md points agents at `decisions/`. If neither file mentions it, **propose** the one-line addition to the user — state the exact line in your response and ask before writing it. For example: "Durable decision records live in `decisions/` — read the relevant record before revisiting a past decision." Never silently edit the user's context files; they own them. If neither file exists, say so in one line and move on.
 
 ## Anti-Sycophancy Note
 

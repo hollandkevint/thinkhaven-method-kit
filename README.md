@@ -62,20 +62,20 @@ The kit is intentionally lightweight. It does not try to be a self-hosted ThinkH
 
 | Skill | What it does |
 |-------|-------------|
-| **b2b-idea-vetting** | 20-minute pressure test for a B2B idea, positioning angle, offer, content thesis, or client recommendation. Produces a concrete decision artifact. |
-| **preflight** | 7-question exercise before any AI session. Forces clarity on outcomes, failure modes, and hard parts. Based on Nate Jones' Preflight. |
-| **grill-me** | Decision tree exploration. "Interview me relentlessly about every aspect of this plan." Non-coding variant of Matt Pocock's viral skill. |
-| **grill-with-docs** | Work an idea through with the agent, grounded in your own documents. Builds shared language and captures decisions inline. The collaborative counterpart to grill-me. |
-| **kill-go** | 5 pointed questions that produce a viability score and a proceed/pivot/kill recommendation. |
-| **assumption-mapper** | Extract and rank assumptions from any idea. Identifies what to test first. |
-| **pull-framework** | Project/Urgent/List/Limitations. Structured problem discovery before solution design. |
-| **decision-brief** | One-page decision brief that passes the Simple/Surprising/Easy test. |
-| **arbitrage-audit** | 3 diagnostic questions: What inefficiency is this built on? How fast can AI close it? What new gap does closure create? |
-| **ai-graduation** | 7-move decision gate for AI deployment: contain, instrument, verify, prove, narrow, widen, standardise. |
-| **problem-framing** | 9-step systematic diagnosis. Define, diagnose, root cause, force analysis, solution generation, evaluation. |
-| **innovation-diagnostic** | Lightweight innovation assessment. Strategic context, market analysis, disruption identification, go/no-go gates. |
-| **design-thinking-lite** | 7-step human-centered design: context, empathize, define, ideate, prototype, test, iterate. |
-| **codify** | Capture a just-made decision into one durable record in `decisions/`. Update-over-duplicate; the reasoning survives the session. |
+| **[b2b-idea-vetting](skills/b2b-idea-vetting/SKILL.md)** | 20-minute pressure test for a B2B idea, positioning angle, offer, content thesis, or client recommendation. Produces a concrete decision artifact. |
+| **[preflight](skills/preflight/SKILL.md)** | 7-question exercise before any AI session. Forces clarity on outcomes, failure modes, and hard parts. Based on Nate Jones' Preflight. |
+| **[grill-me](skills/grill-me/SKILL.md)** | Decision tree exploration. "Interview me relentlessly about every aspect of this plan." Non-coding variant of Matt Pocock's viral skill. |
+| **[grill-with-docs](skills/grill-with-docs/SKILL.md)** | Work an idea through with the agent, grounded in your own documents. Builds shared language and captures decisions inline. The collaborative counterpart to grill-me. |
+| **[kill-go](skills/kill-go/SKILL.md)** | 5 pointed questions that produce a viability score and a proceed/pivot/kill recommendation. |
+| **[assumption-mapper](skills/assumption-mapper/SKILL.md)** | Extract and rank assumptions from any idea. Identifies what to test first. |
+| **[pull-framework](skills/pull-framework/SKILL.md)** | Project/Urgent/List/Limitations. Structured problem discovery before solution design. |
+| **[decision-brief](skills/decision-brief/SKILL.md)** | One-page decision brief that passes the Simple/Surprising/Easy test. |
+| **[arbitrage-audit](skills/arbitrage-audit/SKILL.md)** | 3 diagnostic questions: What inefficiency is this built on? How fast can AI close it? What new gap does closure create? |
+| **[ai-graduation](skills/ai-graduation/SKILL.md)** | 7-move decision gate for AI deployment: contain, instrument, verify, prove, narrow, widen, standardise. |
+| **[problem-framing](skills/problem-framing/SKILL.md)** | 9-step systematic diagnosis. Define, diagnose, root cause, force analysis, solution generation, evaluation. |
+| **[innovation-diagnostic](skills/innovation-diagnostic/SKILL.md)** | Lightweight innovation assessment. Strategic context, market analysis, disruption identification, go/no-go gates. |
+| **[design-thinking-lite](skills/design-thinking-lite/SKILL.md)** | 7-step human-centered design: context, empathize, define, ideate, prototype, test, iterate. |
+| **[codify](skills/codify/SKILL.md)** | Capture a just-made decision into one durable record in `decisions/`. Update-over-duplicate; the reasoning survives the session. |
 
 ### Agents
 
