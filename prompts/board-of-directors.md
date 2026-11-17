@@ -32,4 +32,4 @@ After all 5 perspectives, synthesize:
 
 ## The Full Experience
 
-This prompt gives you a taste. [ThinkHaven](https://thinkhaven.co/try) gives you the full experience: 6 named AI advisors (Mary, Victoria, Casey, Elaine, Omar, Taylor) who maintain context across a 30-minute structured session and produce a Lean Canvas as an artifact.
+The retired ThinkHaven app ran a fuller version: 6 named AI advisors (Mary, Victoria, Casey, Elaine, Omar, Taylor) across a 30-minute structured session that produced a Lean Canvas. This prompt keeps the core of it.

@@ -314,4 +314,3 @@ You cannot programmatically run another plugin's slash command. Always present t
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)

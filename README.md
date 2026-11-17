@@ -2,7 +2,7 @@
 
 Open decision architecture for people who need sharper judgment before they build, pitch, publish, or advise.
 
-This is the public method layer behind [ThinkHaven](https://thinkhaven.co): prompts, skills, playbooks, and frameworks for turning messy ideas into defensible decisions. Run the methods manually from this repo, or use ThinkHaven when you want the hosted version with adaptive facilitation, memory, artifacts, and a personal board of advisors.
+Prompts, skills, playbooks, and frameworks for turning messy ideas into defensible decisions. Run the methods manually from this repo. (The hosted ThinkHaven app was retired in November 2026; the methods live on here.)
 
 ## Quickstart
 
@@ -134,7 +134,6 @@ When building cost approaches zero, the scarce resource is knowing what to build
 
 ## Related
 
-- **[ThinkHaven](https://thinkhaven.co/try)** — The hosted Board of Directors experience: AI advisors with distinct worldviews who pressure-test your strategy
 - **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** — Full agent framework with 21+ specialized agents and 50+ workflows
 - **[data-product-operator](https://github.com/hollandkevint/data-product-operator)** — Skills for data product managers
 

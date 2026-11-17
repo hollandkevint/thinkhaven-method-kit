@@ -188,4 +188,3 @@ Verdict still unclear → run **kill-go** for a scored call. Call made → run *
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Hosted Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)

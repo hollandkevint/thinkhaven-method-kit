@@ -30,4 +30,3 @@ You can be direct without being harsh. Challenge the thinking, not the person.
 
 Most AI tools default to sycophancy because most users prefer agreement. This prompt is for the minority who want truth over comfort.
 
-For the full experience — 6 AI advisors with distinct worldviews who disagree with EACH OTHER — try [ThinkHaven](https://thinkhaven.co/try).

@@ -70,4 +70,3 @@ Decision shaped → run **assumption-mapper** to rank what it rests on, or **dec
 Based on Matt Pocock's grill-with-docs skill pattern (https://github.com/mattpocock/skills, MIT), adapted as the non-coding, document-grounded counterpart to grill-me.
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)
