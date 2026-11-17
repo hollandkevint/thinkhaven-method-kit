@@ -1,0 +1,34 @@
+# Runs on every pull request and push to main.
+# 1. Plugin and marketplace JSON must parse.
+# 2. No link to thinkhaven.co: the hosted app was retired Nov 4 2026.
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Plugin JSON parses
+        run: |
+          for f in .claude-plugin/*.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "ok $f"
+          done
+
+      - name: No links to the retired thinkhaven.co
+        run: |
+          if git grep -n 'thinkhaven\.co'; then
+            echo "Found thinkhaven.co. The hosted app was retired Nov 4 2026; link the GitHub repo instead."
+            exit 1
+          fi
+          echo "no thinkhaven.co links"
