@@ -21,7 +21,7 @@ A real decision flow today fragments across plugins. Concrete grounding moment f
 ## Actors
 
 - A1. **Public decision-architecture user** — product leader, engineer, founder using the plugin in Claude Code.
-- A2. **ThinkHaven user** — the Facilitator complements the multi-advisor experience at thinkhaven.co.
+- A2. **ThinkHaven user** — the Facilitator complements the multi-advisor experience in the ThinkHaven app (retired 2026-11-04).
 
 ---
 

@@ -96,4 +96,3 @@ Assumptions ranked → run **kill-go** to test-then-decide, or **decision-brief*
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)

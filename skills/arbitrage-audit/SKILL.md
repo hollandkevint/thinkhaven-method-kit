@@ -95,4 +95,3 @@ Gap mapped → run **kill-go** for a proceed/pivot/kill verdict, or **decision-b
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)

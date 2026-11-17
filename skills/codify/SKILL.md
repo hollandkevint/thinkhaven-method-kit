@@ -68,4 +68,3 @@ The loop is closed — the decision is durable. Start the next one with `/decide
 ---
 
 Part of the [ThinkHaven Method Kit](https://github.com/hollandkevint/thinkhaven-method-kit) by Kevin Holland.
-Full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)

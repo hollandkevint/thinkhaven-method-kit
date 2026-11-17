@@ -26,4 +26,3 @@ The non-coding variant removes "explore the codebase" — it's pure decision tre
 
 Original grill-me skill by Matt Pocock (`mattpocock/skills/grill-me`). Adapted for non-coding decisions by Kevin Holland.
 
-For the full Board of Directors experience: [ThinkHaven](https://thinkhaven.co/try)
