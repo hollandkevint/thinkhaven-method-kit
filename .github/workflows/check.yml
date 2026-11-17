@@ -27,7 +27,7 @@ jobs:
 
       - name: No links to the retired thinkhaven.co
         run: |
-          if git grep -n 'thinkhaven\.co'; then
+          if git grep -n 'thinkhaven\.co' -- . ':!.github/workflows/check.yml'; then
             echo "Found thinkhaven.co. The hosted app was retired Nov 4 2026; link the GitHub repo instead."
             exit 1
           fi
